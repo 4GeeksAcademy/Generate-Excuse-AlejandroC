@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .title-excuse {
+    text-align: center;
+    margin-left: -50px !important;
+  }
+  .container {
+    width: 90% !important;
+    padding: 20px;
+  }
+  .textInfo {
+    margin-left: 1px !important;
+    width: 100%;
+  }
+}
